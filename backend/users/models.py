@@ -15,3 +15,4 @@ class User(AbstractUser):
 class Testing(models.Model):
     "Generated Model"
     testing = models.BigIntegerField()
+    test = models.CharField(max_length=256, null=True, blank=True,)
